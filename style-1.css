@@ -267,6 +267,9 @@ h3{
     .image-schadule{
         margin: 0 auto;
     }
+    .imageschadule{
+        width: 100%;
+    }
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
@@ -319,5 +322,7 @@ h3{
         padding-left: 10px;
         padding-right: 10px;
     }   
-
+    .imageschadule{
+        width: 100%;
+    }
   }
