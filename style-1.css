@@ -1,0 +1,323 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: royalblue;
+}
+.menu{
+    float: right;   
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid royalblue;
+    z-index: 1;
+}
+nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav .active{
+    color: rgb(42, 71, 159) !important;
+    text-decoration: underline;
+    text-decoration-color: rgb(42, 71, 159);
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 200ms;
+}
+nav ul li a:hover{
+    color: #364f6b;
+    font-size: 20px;
+    transition: 200ms;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+#home-section{
+    margin-top: 20px;
+}
+.banner{
+    display: block;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 400;
+    color: #343535;
+    font-size: 18px;
+    text-align: center;
+}
+.description-img{
+        background: rgba(210, 38, 30, 0.3);    
+}
+.img1-description{
+    margin: -5px 0px 6px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 700;
+}
+.img1-description2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 700;
+
+}
+.kolom{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: royalblue;
+    margin-top: -20px;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: royalblue;
+    width: 100%;
+    line-height: 50px;
+}
+.kolom p{
+    text-align: justify;
+}
+.btn-blue{
+    background: #007bff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-blue:hover{
+    color: black;
+}
+.btn-green{
+    background: #28a745;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 500ms;
+}
+.btn-green:hover{
+    background-color: blue;
+    color: white;
+    transition: 500ms;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.description-2{
+    padding-right: 30px;
+}
+.sectin-list-anime{
+    margin-left: -10px;
+}
+.center{
+    text-align: center !important;
+    width: 100%;
+}
+.listAnime{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-anime{
+    width: 30%;
+    margin:  auto;
+}
+.card-anime img{
+    width: 80%;
+}
+.card-anime p{
+    font-family: 'comis sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: royalblue;
+}
+#contact{
+    background: #dedede;
+    border-top: 3px solid royalblue;
+    padding: 50px 0px 50px 0px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 25%;
+    margin: 0 auto;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: royalblue;
+    width: 100%;
+    line-height: 5px;
+}
+.footer-section p{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+.footer-section img{
+    margin-top: -15px;
+    margin-left: 50px;
+}
+.social-img{
+    margin-top: 15px !important;
+    margin-left: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    transition: 300ms;
+    border-radius: 50%;
+
+}
+.social-img:hover{
+    width: 35px !important;
+    height: 35px !important;
+    border: 5px solid white;
+    transition: 300ms;
+    margin-top: -15px !important;
+    margin-left: 10px;
+}
+.image-schadule{
+    width: 100%;
+}
+
+/* Responsive Here ----------------------------------- */
+@media only screen and (max-width:1000px) {
+    /* For tablets: */
+    .logo a{
+        margin-left: 20px !important;
+    }
+    .menu{
+        margin-right: 40px;
+    }
+    section{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .wrapper{
+        width: auto;
+    }
+    .banner{
+        margin: 0 auto;
+        margin-bottom: 50px !important;
+        width: fit-content;
+    }
+    .description-section{
+        margin-left: -20px;
+        padding-right: 30px;
+    }
+    .sectin-list-anime{
+        padding-left: 40px;
+        margin-right: -4px;
+    }
+    .card-anime{ 
+        width: 50%;
+    }
+    .image-schadule{
+        margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .logo a{
+        margin-left: 60px !important;
+    }
+    .menu{
+        margin-left: 40px;
+    }
+    section{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .wrapper{
+        width: auto;
+        margin: auto;
+        position: relative;
+    }
+    .banner{
+        margin-bottom: 50px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .description-section{
+        margin-left: -30px;
+        padding-right: 20px;
+    }
+    .img-schadule{
+        width: 100%;
+    }
+    .sectin-list-anime{
+        padding-left: 30px;
+        margin-right: -10px;
+    }
+    .footer{
+        display: block;     
+    }
+    .listAnime{
+        display: block;
+    }
+    .card-anime{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .footer-section{
+        width: 60%;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
+
+  }
